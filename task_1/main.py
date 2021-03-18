@@ -35,5 +35,5 @@ def chinese_remainder(n1: int, r1: int, n2: int, r2: int) -> int:
 if __name__ == '__main__':
     from doctest import testmod
 
-    testmod(name="chinese_remainder", verbose=True)
     testmod(name="extended_euclid", verbose=True)
+    testmod(name="chinese_remainder", verbose=True)
