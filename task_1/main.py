@@ -19,9 +19,9 @@ def extended_euclid(a: int, b: int) -> Tuple[int, int]:
 
 def chinese_remainder(n1: int, r1: int, n2: int, r2: int) -> int:
     """
-    >>> chinese_remainder(5,1,7,3)
+    >>> chinese_remainder(5, 1, 7, 3)
     31
-    >>> chinese_remainder(6,1,4,3)
+    >>> chinese_remainder(6, 1, 4, 3)
     14
     """
     (x, y) = extended_euclid(n1, n2)
