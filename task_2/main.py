@@ -32,7 +32,7 @@ def miller_rabin_test(n, iterations=1000):
 
 
 def main():
-    with open('table_ind_1.txt', 'w') as File:
+    with open('test_table.txt', 'w') as File:
         header = "Число     | "
         for test_num in range(1, 101):
             if test_num < 10:
